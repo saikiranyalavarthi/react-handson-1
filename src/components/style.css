@@ -1,0 +1,71 @@
+body{
+    background-image: linear-gradient(
+        rgb(175, 217, 217),
+        pink,
+        gray,
+        white
+    );
+    width:100vw;
+    height:100vh
+}
+
+
+
+.app {
+    text-shadow: 2px 2px 2px blue;
+  }
+  .text1 {
+      text-align: center;
+    }
+    .para1 {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .bn-box {
+      display: flex;
+      justify-content: center;
+      margin: 0px;
+      padding: 30px;
+  
+    }
+    
+    .btn {
+      box-sizing: border-box;
+      border: 2px solid black;
+      cursor: pointer;
+      width: 300px;
+      height: 50px;
+      border-radius: 50px;
+      
+    }
+    .cb {
+      background-color:  rgba(158, 203, 239);
+      margin-left: 30px;
+    }
+    .fb {
+      background-color:  rgba(158, 203, 239);
+      margin-right: 30px;
+    }
+    
+    .text2{
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: 50vw 50vw;
+      margin-top: 30px;
+    }
+    
+    .fc,
+    .cc {
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 20px;
+      text-align: center;
+      margin: 30px;
+      padding: 20px;
+    }
+    
+    .fc {
+      background-color:rgba(255, 17, 0, 0.749);
+    }
+    
+    .cc {
+      background-color: rgb(108, 114, 198);
+    }
